@@ -1,3 +1,11 @@
+let nombreUser = prompt('Ingresa tu nombre');
+
+function saludar (nombre) {
+  alert('Bienvenido/a '+nombre);
+}
+
+saludar(nombreUser);
+
 let cantidadTickets = parseInt(
   prompt("Elige la cantidad de tickets que deseas. Cantidad máxima: 2")
 );
